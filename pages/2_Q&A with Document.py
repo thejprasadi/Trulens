@@ -21,7 +21,6 @@ from langchain_groq import ChatGroq
 from langsmith import Client
 import os
 
-
 template = """Answer the question based only on the following context:
 {context}
 If you don't know the answer, just say out of scope, don't try to make up an answer.
