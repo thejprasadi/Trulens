@@ -134,11 +134,3 @@ with col1:
 with col2:
     if st.button('Evaluate with Trulens', key='frontend_button', type="primary", use_container_width=True, help="Click for Evaluate with Trulens"):
         st.switch_page("pages/3_Evaluation with Trulens.py")
-  
-    
-
-    
-    
-
-    
-
